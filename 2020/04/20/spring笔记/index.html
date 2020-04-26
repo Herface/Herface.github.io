@@ -19,18 +19,18 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"lmm.cool","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"lmm.cool","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Spring学习笔记">
+  <meta name="description" content="practice makes perfect">
 <meta property="og:type" content="article">
 <meta property="og:title" content="spring笔记">
 <meta property="og:url" content="http://lmm.cool/2020/04/20/spring%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="0xCAFEBABE">
-<meta property="og:description" content="Spring学习笔记">
+<meta property="og:description" content="practice makes perfect">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-04-20T12:43:59.000Z">
-<meta property="article:modified_time" content="2020-04-20T12:46:57.383Z">
+<meta property="article:modified_time" content="2020-04-24T13:11:08.800Z">
 <meta property="article:author" content="yong">
 <meta property="article:tag" content="java">
 <meta property="article:tag" content="spring">
@@ -124,17 +124,17 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">8</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">8</span></a>
 
   </li>
         <li class="menu-item menu-item-about">
@@ -157,6 +157,7 @@
     <span>0%</span>
   </div>
   <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
 
   <a href="https://github.com/Herface" class="github-corner" title="Fork me on GitHub" aria-label="Fork me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
 
@@ -219,10 +220,13 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="Spring学习笔记"><a href="#Spring学习笔记" class="headerlink" title="Spring学习笔记"></a>Spring学习笔记</h1><a id="more"></a>
+        <blockquote>
+<p>practice makes perfect</p>
+</blockquote>
+<a id="more"></a>
 <blockquote>
 <p>学习spring也有一段时间了  只是一直没有一个系统的笔记 也没有写markdown的习惯, 学习笔记都是零碎地附着在代码之上的 现在就来系统地整理一下吧</p>
-<p>spring是java平台可以说是最牛逼的一个框架之一 按我的理解(大神勿喷) 如果写程序就像盖房子 那么spring就相当于为你搭好了地基 你要做的只是在这个地基之上添砖加瓦 专注于自己的业务逻辑就行了 剩下的 spring都帮你安排好了</p>
+<p>spring是java平台可以说是最牛逼的一个框架之一  如果写程序就像盖房子 那么spring就相当于为你搭好了地基 你要做的只是在这个地基之上添砖加瓦 专注于自己的业务逻辑就行了 剩下的 spring都帮你安排好了</p>
 </blockquote>
 <h2 id="IOC-容器"><a href="#IOC-容器" class="headerlink" title="IOC 容器"></a>IOC 容器</h2><blockquote>
 <p>IOC 即控制反转  即控制权反转 比如在java中 对象的创建的  对象之间的依赖关系  都有程序员掌控生死  当控制反转之后 程序员对对象的控制权就交给了别人 在spring中 就是IOC容器掌管着对象的生命周期 光有IOC容器还不行 还需要有一个东西 告诉 IOC容器怎么管理对象 这个东西就是xml配置文件 统称为 bean.xml</p>
@@ -313,7 +317,7 @@
 <p>对一些代码(在java中就是方法)的所有同一执行点 进行抽取 形成一个切面 并专注于在切面上完成各种处理逻辑 就称为面向切面编程 AOP的价值在于抽取重复代码 并通过代理模式将切面 无侵入地植入目标执行点 使目标专注于自己的业务逻辑</p>
 <p>spring aop 借鉴了aspectj的语法风格 并通过jdk动态代理和cglib两种方式实现代理</p>
 <p>IOC容器通过AOP配置信息生成代理类</p>
-<p>当目标类实现了接口时 使用JDK动态代理 否则将使用CGLIB</p>
+<p>当目标类实现了接口时 使用JDK动态代理 否则将使用CGLIB 可通过</p>
 <p>相关概念 <a href="https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#aop" target="_blank" rel="noopener">详见官方文档</a></p>
 <ul>
 <li>Aspect 切面类 一系列横切关注点(方法执行点)的集合</li>
@@ -333,7 +337,7 @@
 <h4 id="注解-1"><a href="#注解-1" class="headerlink" title="注解"></a>注解</h4><blockquote>
 <p>支持通过注解方式配置AOP</p>
 <p>需要在bean.xml中声明</p>
-<p><code>&lt;aop:aspectj-autoproxy/&gt;</code></p>
+<p><code>&lt;aop:aspectj-autoproxy/&gt;</code> 或基于注解的配置类中使用<code>@EnableAspectJAutoProxy</code> 开启AspectJ风格的aop 可通过设置<code>proxy-target-class</code>为<code>true</code>强制使用CGLIB代理</p>
 </blockquote>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="meta">@Aspect</span> <span class="comment">// 标记当前类为切面类</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Aop</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 切点</span></span><br><span class="line">    <span class="meta">@Pointcut</span>(<span class="string">"execution(* com.yong.dao.UserDao.*(..))"</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">pointCut</span><span class="params">()</span></span>&#123; &#125;</span><br></pre></td></tr></table></figure>
 
@@ -418,11 +422,29 @@
     
     
     
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>yong
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://lmm.cool/2020/04/20/spring%E7%AC%94%E8%AE%B0/" title="spring笔记">http://lmm.cool/2020/04/20/spring笔记/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
 
       <footer class="post-footer">
+          
           <div class="post-tags">
-              <a href="/tags/java/" rel="tag"># java</a>
-              <a href="/tags/spring/" rel="tag"># spring</a>
+              <a href="/tags/java/" rel="tag"><i class="fa fa-tag"></i> java</a>
+              <a href="/tags/spring/" rel="tag"><i class="fa fa-tag"></i> spring</a>
           </div>
 
         
@@ -496,7 +518,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Spring学习笔记"><span class="nav-number">1.</span> <span class="nav-text">Spring学习笔记</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#IOC-容器"><span class="nav-number">1.1.</span> <span class="nav-text">IOC 容器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Bean"><span class="nav-number">1.1.1.</span> <span class="nav-text">Bean</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#基础bean"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">基础bean</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#抽象bean"><span class="nav-number">1.1.1.2.</span> <span class="nav-text">抽象bean</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#集合bean"><span class="nav-number">1.1.1.3.</span> <span class="nav-text">集合bean</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#静态工厂bean"><span class="nav-number">1.1.1.4.</span> <span class="nav-text">静态工厂bean</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#实例工厂bean"><span class="nav-number">1.1.1.5.</span> <span class="nav-text">实例工厂bean</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#引用外部资源"><span class="nav-number">1.1.1.6.</span> <span class="nav-text">引用外部资源</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注解扫描"><span class="nav-number">1.1.1.7.</span> <span class="nav-text">注解扫描</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DI-依赖注入"><span class="nav-number">1.1.2.</span> <span class="nav-text">DI 依赖注入</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#constructor-arg"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">constructor-arg</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#property"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">property</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#autowire"><span class="nav-number">1.1.2.3.</span> <span class="nav-text">autowire</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注解"><span class="nav-number">1.1.2.4.</span> <span class="nav-text">注解</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AOP"><span class="nav-number">1.2.</span> <span class="nav-text">AOP</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#基本配置"><span class="nav-number">1.2.1.</span> <span class="nav-text">基本配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#XML"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">XML</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注解-1"><span class="nav-number">1.2.1.2.</span> <span class="nav-text">注解</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#通知类型"><span class="nav-number">1.2.2.</span> <span class="nav-text">通知类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#切点表达式"><span class="nav-number">1.2.3.</span> <span class="nav-text">切点表达式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#事务管理"><span class="nav-number">1.2.4.</span> <span class="nav-text">事务管理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#声明式事务"><span class="nav-number">1.2.4.1.</span> <span class="nav-text">声明式事务</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#事务的传播行为"><span class="nav-number">1.2.4.2.</span> <span class="nav-text">事务的传播行为</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#嵌套事务"><span class="nav-number">1.2.4.3.</span> <span class="nav-text">嵌套事务</span></a></li></ol></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#IOC-容器"><span class="nav-number">1.</span> <span class="nav-text">IOC 容器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Bean"><span class="nav-number">1.1.</span> <span class="nav-text">Bean</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#基础bean"><span class="nav-number">1.1.1.</span> <span class="nav-text">基础bean</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#抽象bean"><span class="nav-number">1.1.2.</span> <span class="nav-text">抽象bean</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#集合bean"><span class="nav-number">1.1.3.</span> <span class="nav-text">集合bean</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#静态工厂bean"><span class="nav-number">1.1.4.</span> <span class="nav-text">静态工厂bean</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#实例工厂bean"><span class="nav-number">1.1.5.</span> <span class="nav-text">实例工厂bean</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#引用外部资源"><span class="nav-number">1.1.6.</span> <span class="nav-text">引用外部资源</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注解扫描"><span class="nav-number">1.1.7.</span> <span class="nav-text">注解扫描</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DI-依赖注入"><span class="nav-number">1.2.</span> <span class="nav-text">DI 依赖注入</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#constructor-arg"><span class="nav-number">1.2.1.</span> <span class="nav-text">constructor-arg</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#property"><span class="nav-number">1.2.2.</span> <span class="nav-text">property</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#autowire"><span class="nav-number">1.2.3.</span> <span class="nav-text">autowire</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注解"><span class="nav-number">1.2.4.</span> <span class="nav-text">注解</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AOP"><span class="nav-number">2.</span> <span class="nav-text">AOP</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#基本配置"><span class="nav-number">2.1.</span> <span class="nav-text">基本配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#XML"><span class="nav-number">2.1.1.</span> <span class="nav-text">XML</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注解-1"><span class="nav-number">2.1.2.</span> <span class="nav-text">注解</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#通知类型"><span class="nav-number">2.2.</span> <span class="nav-text">通知类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#切点表达式"><span class="nav-number">2.3.</span> <span class="nav-text">切点表达式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#事务管理"><span class="nav-number">2.4.</span> <span class="nav-text">事务管理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#声明式事务"><span class="nav-number">2.4.1.</span> <span class="nav-text">声明式事务</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#事务的传播行为"><span class="nav-number">2.4.2.</span> <span class="nav-text">事务的传播行为</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#嵌套事务"><span class="nav-number">2.4.3.</span> <span class="nav-text">嵌套事务</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -512,28 +534,31 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
-        <a href="https://github.com/Herface" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Herface" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+        <a href="https://github.com/Herface" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Herface" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
       </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
   </div>
 
 
@@ -562,8 +587,23 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">He</span>
-</div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
-
+</div><script color="0,0,255" opacity="0.9" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+<!--
+    <div class="main-content">
+        <div class="year"></div> 
+        <div class="month"></div>
+        <div class="day"></div>
+        <div class="week"></div>
+        <div class="shichen"></div>
+        <div class="hour"></div>
+        <div class="minute"></div>
+        <div class="second"></div>
+    </div>
+<script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js"></script>
+<script src="/js/a.js"></script>
+<script src="/js/b.js"></script>
+<script src="/js/c.js"></script>
+-->
 
         
 
@@ -592,6 +632,8 @@
 
 
 <script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
 
 
 
