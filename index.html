@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"lmm.cool","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"lmm.cool","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta property="og:type" content="website">
@@ -167,7 +167,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://lmm.cool/2020/04/24/jvm%E7%B3%BB%E5%88%97%E4%B9%8B%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4/">
+    <link itemprop="mainEntityOfPage" href="http://lmm.cool/posts/eed8960b/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -181,7 +181,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/04/24/jvm%E7%B3%BB%E5%88%97%E4%B9%8B%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4/" class="post-title-link" itemprop="url">jvm系列之类加载器命名空间</a>
+            <a href="/posts/eed8960b/" class="post-title-link" itemprop="url">jvm系列之类加载器命名空间</a>
         </h2>
 
         <div class="post-meta">
@@ -193,21 +193,29 @@
 
               <time title="创建时间：2020-04-24 21:04:48" itemprop="dateCreated datePublished" datetime="2020-04-24T21:04:48+08:00">2020-04-24</time>
             </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/java/jvm/" itemprop="url" rel="index"><span itemprop="name">jvm</span></a>
-                </span>
-            </span>
 
           
+            <span id="/posts/eed8960b/" class="post-meta-item leancloud_visitors" data-flag-title="jvm系列之类加载器命名空间" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/eed8960b/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/eed8960b/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -223,7 +231,7 @@
 </blockquote>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2020/04/24/jvm%E7%B3%BB%E5%88%97%E4%B9%8B%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4/#more" rel="contents">
+              <a class="btn" href="/posts/eed8960b/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -247,7 +255,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://lmm.cool/2020/04/20/java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/">
+    <link itemprop="mainEntityOfPage" href="http://lmm.cool/posts/1e4a4153/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -261,7 +269,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/04/20/java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/" class="post-title-link" itemprop="url">java集合框架</a>
+            <a href="/posts/1e4a4153/" class="post-title-link" itemprop="url">java集合框架</a>
         </h2>
 
         <div class="post-meta">
@@ -273,17 +281,29 @@
 
               <time title="创建时间：2020-04-20 21:03:41" itemprop="dateCreated datePublished" datetime="2020-04-20T21:03:41+08:00">2020-04-20</time>
             </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
-                </span>
-            </span>
 
           
+            <span id="/posts/1e4a4153/" class="post-meta-item leancloud_visitors" data-flag-title="java集合框架" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/1e4a4153/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/1e4a4153/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -299,7 +319,7 @@
 </blockquote>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2020/04/20/java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/#more" rel="contents">
+              <a class="btn" href="/posts/1e4a4153/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -323,7 +343,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://lmm.cool/2020/04/20/spring%E6%89%A9%E5%B1%95/">
+    <link itemprop="mainEntityOfPage" href="http://lmm.cool/posts/c135f3aa/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -337,7 +357,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/04/20/spring%E6%89%A9%E5%B1%95/" class="post-title-link" itemprop="url">spring扩展</a>
+            <a href="/posts/c135f3aa/" class="post-title-link" itemprop="url">spring扩展</a>
         </h2>
 
         <div class="post-meta">
@@ -349,17 +369,29 @@
 
               <time title="创建时间：2020-04-20 20:55:52" itemprop="dateCreated datePublished" datetime="2020-04-20T20:55:52+08:00">2020-04-20</time>
             </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
-                </span>
-            </span>
 
           
+            <span id="/posts/c135f3aa/" class="post-meta-item leancloud_visitors" data-flag-title="spring扩展" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/c135f3aa/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/c135f3aa/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -374,7 +406,7 @@
 <p> All of these flavors come in through extensions
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2020/04/20/spring%E6%89%A9%E5%B1%95/#more" rel="contents">
+              <a class="btn" href="/posts/c135f3aa/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -398,7 +430,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://lmm.cool/2020/04/20/spring%E7%AC%94%E8%AE%B0/">
+    <link itemprop="mainEntityOfPage" href="http://lmm.cool/posts/8f8fe98d/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -412,7 +444,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/04/20/spring%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">spring笔记</a>
+            <a href="/posts/8f8fe98d/" class="post-title-link" itemprop="url">spring笔记</a>
         </h2>
 
         <div class="post-meta">
@@ -424,17 +456,29 @@
 
               <time title="创建时间：2020-04-20 20:43:59" itemprop="dateCreated datePublished" datetime="2020-04-20T20:43:59+08:00">2020-04-20</time>
             </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
-                </span>
-            </span>
 
           
+            <span id="/posts/8f8fe98d/" class="post-meta-item leancloud_visitors" data-flag-title="spring笔记" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/8f8fe98d/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/8f8fe98d/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -450,7 +494,7 @@
 </blockquote>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2020/04/20/spring%E7%AC%94%E8%AE%B0/#more" rel="contents">
+              <a class="btn" href="/posts/8f8fe98d/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -474,7 +518,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://lmm.cool/2020/04/17/java%E4%B9%8BIO%E6%B5%81/">
+    <link itemprop="mainEntityOfPage" href="http://lmm.cool/posts/6653993f/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -488,7 +532,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/04/17/java%E4%B9%8BIO%E6%B5%81/" class="post-title-link" itemprop="url">java之IO流</a>
+            <a href="/posts/6653993f/" class="post-title-link" itemprop="url">java之IO流</a>
         </h2>
 
         <div class="post-meta">
@@ -500,17 +544,29 @@
 
               <time title="创建时间：2020-04-17 21:23:30" itemprop="dateCreated datePublished" datetime="2020-04-17T21:23:30+08:00">2020-04-17</time>
             </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
-                </span>
-            </span>
 
           
+            <span id="/posts/6653993f/" class="post-meta-item leancloud_visitors" data-flag-title="java之IO流" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/6653993f/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/6653993f/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -526,7 +582,7 @@
 </blockquote>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2020/04/17/java%E4%B9%8BIO%E6%B5%81/#more" rel="contents">
+              <a class="btn" href="/posts/6653993f/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -550,7 +606,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://lmm.cool/2020/04/12/JAVA%E7%AE%97%E6%B3%95%E7%A7%98%E7%B1%8D/">
+    <link itemprop="mainEntityOfPage" href="http://lmm.cool/posts/7767a864/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -564,7 +620,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/04/12/JAVA%E7%AE%97%E6%B3%95%E7%A7%98%E7%B1%8D/" class="post-title-link" itemprop="url">JAVA数据结构与算法</a>
+            <a href="/posts/7767a864/" class="post-title-link" itemprop="url">JAVA数据结构与算法</a>
         </h2>
 
         <div class="post-meta">
@@ -576,17 +632,29 @@
 
               <time title="创建时间：2020-04-12 13:07:40" itemprop="dateCreated datePublished" datetime="2020-04-12T13:07:40+08:00">2020-04-12</time>
             </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
-                </span>
-            </span>
 
           
+            <span id="/posts/7767a864/" class="post-meta-item leancloud_visitors" data-flag-title="JAVA数据结构与算法" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/7767a864/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/7767a864/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -602,7 +670,7 @@
 </blockquote>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2020/04/12/JAVA%E7%AE%97%E6%B3%95%E7%A7%98%E7%B1%8D/#more" rel="contents">
+              <a class="btn" href="/posts/7767a864/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -626,7 +694,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://lmm.cool/2020/04/12/SpringBoot%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/">
+    <link itemprop="mainEntityOfPage" href="http://lmm.cool/posts/d944ec5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -640,7 +708,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/04/12/SpringBoot%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/" class="post-title-link" itemprop="url">SpringBoot入门指南</a>
+            <a href="/posts/d944ec5/" class="post-title-link" itemprop="url">SpringBoot入门指南</a>
         </h2>
 
         <div class="post-meta">
@@ -652,17 +720,29 @@
 
               <time title="创建时间：2020-04-12 12:07:40" itemprop="dateCreated datePublished" datetime="2020-04-12T12:07:40+08:00">2020-04-12</time>
             </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
-                </span>
-            </span>
 
           
+            <span id="/posts/d944ec5/" class="post-meta-item leancloud_visitors" data-flag-title="SpringBoot入门指南" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/d944ec5/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/d944ec5/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -678,7 +758,7 @@
 </blockquote>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2020/04/12/SpringBoot%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/#more" rel="contents">
+              <a class="btn" href="/posts/d944ec5/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -702,7 +782,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://lmm.cool/2020/04/11/helloworld/">
+    <link itemprop="mainEntityOfPage" href="http://lmm.cool/posts/f9eb20ad/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -716,7 +796,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/04/11/helloworld/" class="post-title-link" itemprop="url">helloworld</a>
+            <a href="/posts/f9eb20ad/" class="post-title-link" itemprop="url">helloworld</a>
         </h2>
 
         <div class="post-meta">
@@ -730,6 +810,27 @@
             </span>
 
           
+            <span id="/posts/f9eb20ad/" class="post-meta-item leancloud_visitors" data-flag-title="helloworld" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/f9eb20ad/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/f9eb20ad/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -875,7 +976,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">He</span>
+  <span class="author" itemprop="copyrightHolder">Ho</span>
 </div><script color="0,0,255" opacity="0.9" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
 <!--
     <div class="main-content">
@@ -959,6 +1060,35 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : true,
+      notify     : false,
+      appId      : 'eltnKNYyuz1Hig9KrfttQSvK-gzGzoHsz',
+      appKey     : 'HJgF4riUWLFkeuajRrYd9Sku',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
     <!-- 爆炸效果 -->
 <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
